@@ -23,7 +23,7 @@ Each criterion gets 0-100 from a fixed formula, then is multiplied by the admin'
 - Experience: installs of 100 kW or more, divided by 10, capped at 100.
 - Price: lowest valid price divided by this price.
 - Timeline: fastest valid time divided by this time. Over 16 weeks fails.
-- Warranty: half panel years divided by 25, half workmanship years divided by 12.
+- Warranty: half panel years and half workmanship years, each divided by the best valid bid's years (or an admin-set cap).
 - Team: 25 points each for named lead, crew, safety plan, monitoring plan.
 
 (The divisors and caps are admin settings, not hard-coded.)
